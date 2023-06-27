@@ -1,0 +1,26 @@
+.legend {
+  &ColorsList {
+    position: absolute;
+    bottom: 0;
+    right: -4px;
+    translate: 100% 0
+  }
+
+  &ColorBox {
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 4px;
+
+    &Wrapper {
+      display: flex;
+      margin-bottom: 2px;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+}
+
+.mapWrapper{
+  position: relative;
+  height: 100%;
+}
